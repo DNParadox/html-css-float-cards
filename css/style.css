@@ -35,19 +35,37 @@ h1 {
 }
 
 img {
-    height: 50px;
+    height: 100px;
 }
 
 .container{
-    background-color: lightcoral;
     width: 80%;
     margin: auto;
 }
 
 .col {
     float: left;
-    width: calc(100% / 3);
+    width: calc( 100% / 3);
     padding: 0 15px;
     background-color: lightgreen;
+    color: white;
+}
 
+.mini-container {
+    padding: 20px;
+    display: inline-block;
+    position: absolute;
+    right: 20px;;
+    margin: auto;
+    width: 80%;
+}
+
+h3 {
+ 
+}
+
+
+.card {
+    background-color: #100e17;
+   
 }
