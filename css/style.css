@@ -47,12 +47,11 @@ img {
     float: left;
     width: calc( 100% / 3);
     padding: 0 15px;
-    background-color: lightgreen;
     color: white;
 }
 
 .mini-container {
-    padding: 20px;
+    padding: 10px;
     display: inline-block;
     position: absolute;
     right: 20px;;
@@ -60,12 +59,18 @@ img {
     width: 80%;
 }
 
-h3 {
- 
-}
-
-
 .card {
     background-color: #100e17;
+    box-shadow: 6px 6px 6px rgb(0 0 0 / 20%);
+
    
+}
+
+h3 {
+    font-size: 22px;
+    padding-bottom: 5px;
+}
+.email {
+    color: #46a7c0;
+    padding-top: 5px;
 }
