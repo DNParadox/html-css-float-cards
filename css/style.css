@@ -7,6 +7,7 @@
 
 body {
     font-family: 'Fredoka', sans-serif;
+    /* color: white; */
 }
  /* Header */
 header {
@@ -48,15 +49,16 @@ img {
     width: calc( 100% / 3);
     padding: 0 15px;
     color: white;
+    margin-bottom: 40px;
 }
 
 .mini-container {
     padding: 10px;
     display: inline-block;
     position: absolute;
-    right: 20px;;
     margin: auto;
     width: 80%;
+    
 }
 
 .card {
